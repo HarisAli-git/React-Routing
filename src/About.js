@@ -1,3 +1,5 @@
+import Rainbow from "./HighOrderComp/RandomColor";
+
 function About(){
     return (  
         <div className="container">
@@ -7,4 +9,4 @@ function About(){
     );
 }
  
-export default About;
+export default Rainbow(About);
