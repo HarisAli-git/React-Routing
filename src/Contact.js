@@ -1,4 +1,10 @@
-function Contact(){
+const Contact = (props) => {
+   
+    setTimeout(() => {
+        console.log('TimeOut')
+        // props.history.push('/about')
+    }, 500);
+
     return (  
         <div className="container">
             <h1 className="center">Contact Us</h1>
